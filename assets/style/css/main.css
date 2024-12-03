@@ -11,4 +11,137 @@ ul, ol, li, a {
 
 * {
   font-family: "Open Sans", sans-serif;
+}
+
+.tabel_section {
+  padding: 40px;
+}
+.tabel_section .mytable {
+  border: 1px solid #F0F0F0;
+  border-radius: 8px;
+  margin-top: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.tabel_section .mytable .mytable_botom {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabel_section .mytable .mytable_botom .mytable_botom_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabel_section .mytable .mytable_botom .mytable_botom_right .mytable_botom_right_top {
+  height: 38px;
+  width: 83px;
+  background-color: rgba(139, 145, 151, 0.75);
+  padding: 7px;
+  border-radius: 8px 0 0 8px;
+}
+.tabel_section .mytable .mytable_botom .mytable_botom_right .mytable_botom_right_bottom {
+  height: 38px;
+  width: 60px;
+  background-color: rgba(139, 145, 151, 0.75);
+  border-radius: 0 8px 8px 0;
+  padding: 5px;
+}
+.tabel_section .mytable .mytable_botom .mytable_botom_right .mytable_botom_right_center {
+  height: 38px;
+  width: 40px;
+  background-color: #4C3575;
+}
+.tabel_section .tabel_section_header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #F0F0F0;
+}
+.tabel_section .tabel_section_header button {
+  background-color: #4C3575;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 7px;
+}
+.tabel_section .table {
+  border: 1px solid #F0F0F0;
+}
+.tabel_section .table_top {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.tabel_section .table_top .table_top_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.tabel_section .table_top .table_top_left .select_opt {
+  background-color: #EEEEEE;
+  height: 35px;
+  width: 60px;
+  border-radius: 8px;
+}
+.tabel_section .table_top .table_top_right .table_top_right_inp {
+  background-color: #EEEEEE;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 5px;
+}
+.tabel_section .table_tr_first i {
+  margin-right: 8px;
+}
+.tabel_section .delete_update {
+  height: 35px;
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabel_section .delete_update .update_btn {
+  width: 80px;
+  height: 35px;
+  border: 1px solid #F0F0F0;
+  border-radius: 8px 0 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(25, 135, 84);
+}
+.tabel_section .delete_update .update_btn:hover {
+  background-color: red;
+  color: white;
+}
+.tabel_section .delete_update .delete_btn {
+  width: 80px;
+  height: 35px;
+  border-radius: 0 8px 8px 0;
+  border: 1px solid #F0F0F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+.tabel_section .delete_update .delete_btn:hover {
+  background-color: red;
+  color: white;
+}
+.tabel_section tbody tr td {
+  margin: 20px 0;
+}
+
+tbody tr:hover td {
+  background-color: #f3f5f4;
 }/*# sourceMappingURL=main.css.map */
