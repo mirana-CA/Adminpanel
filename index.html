@@ -1,85 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="assets/style/css/main.css" />
-    <title>Holidays</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="nav_ls">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <input type="text" placeholder="Search" />
-        </div>
-        <div class="nav_rs">
-          <span>i</span>
-          <div class="nav_rs_images">
-            <img
-            class="nav_rs_images_elem"
-              src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar2.jpg"
-              alt=""
-            />
-            <img
-            class="nav_rs_images_elem"
-              src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar1.jpg"
-              alt=""
-            />
-            <img
-            class="nav_rs_images_elem"
-              src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar3.jpg"
-              alt=""
-            />
-            <img
-            class="nav_rs_images_elem"
-              src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar4.jpg"
-              alt=""
-            />
-            <img
-            class="nav_rs_images_elem"
-              src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar7.jpg"
-              alt=""
-            />
-            <img
-            class="nav_rs_images_elem"
-              src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar8.jpg"
-              alt=""
-            />
-            <div><i class="fa-solid fa-plus"></i></div>
-          </div>
-          <i class="fa-solid fa-bell bell_icon"></i>
-          <div class="user_detail">
-            <div class="about_user">
-              <h4>Dylan Hunter</h4>
-              <p>Admin Profile</p>
-            </div>
-            <img
-              class="user_img"
-              src="https://pixelwibes.com/template/my-task/html/dist/assets/images/profile_av.png"
-              alt=""
-            />
-          <i class="fa-solid fa-gear gear_icon"></i>
 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/style/css/main.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Holidays</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav_ls">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="nav_rs">
+        <span>i</span>
+        <div class="nav_rs_images">
+          <img
+          class="nav_rs_images_elem"
+            src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar2.jpg"
+            alt=""
+          />
+          <img
+          class="nav_rs_images_elem"
+            src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar1.jpg"
+            alt=""
+          />
+          <img
+          class="nav_rs_images_elem"
+            src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar3.jpg"
+            alt=""
+          />
+          <img
+          class="nav_rs_images_elem"
+            src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar4.jpg"
+            alt=""
+          />
+          <img
+          class="nav_rs_images_elem"
+            src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar7.jpg"
+            alt=""
+          />
+          <img
+          class="nav_rs_images_elem"
+            src="https://pixelwibes.com/template/my-task/html/dist/assets/images/xs/avatar8.jpg"
+            alt=""
+          />
+          <div><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <i class="fa-solid fa-bell bell_icon"></i>
+        <div class="user_detail">
+          <div class="about_user">
+            <h4>Dylan Hunter</h4>
+            <p>Admin Profile</p>
           </div>
+          <img
+            class="user_img"
+            src="https://pixelwibes.com/template/my-task/html/dist/assets/images/profile_av.png"
+            alt=""
+          />
+        <i class="fa-solid fa-gear gear_icon"></i>
 
         </div>
-      </nav>
-    </header>
-    <main>
-      <aside>
-        <!-- "" -->
-      </aside>
-    </main>
-  </body>
+
+      </div>
+    </nav>
+  </header>
+  <main>
+    <aside>
+      <!-- "" -->
+    </aside>
+    <section class="tabel_section">
+      <div class="tabel_section_header">
+        <h3>Holidays</h3>
+        <button><i class="fa-solid fa-plus"></i>Add Holidays</button>
+      </div>
+
+      <div class="mytable">
+        <table class="table">
+          <thead>
+            <tr>
+              <div class="table_top">
+                <div class="table_top_left">
+                  Show
+                  <select class="select_opt" name="" id="">
+                    <option value="">10</option>
+                    <option value="">25</option>
+                    <option value="">50</option>
+                    <option value="">100</option>
+                  </select>
+                  entries
+                </div>
+                <div class="table_top_right">
+                  <form action="">
+                    <label for="">Search: <input class="table_top_right_inp" type="text"></label>
+                  </form>
+                </div>
+              </div>
+
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col" class="table_tr_first"><i class="fa-solid fa-arrow-down-short-wide"></i>Holiday Day</th>
+              <th scope="col" class="table_tr_first"><i class="fa-solid fa-arrow-down-short-wide"></i>Holiday Date</th>
+              <th scope="col" class="table_tr_first"><i class="fa-solid fa-arrow-down-short-wide"></i>Holiday Name</th>
+              <th scope="col" class="table_tr_first"><i class="fa-solid fa-arrow-down-short-wide"></i>Action</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">01</td>
+              <td>Tuesday</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>
+                <div class="delete_update">
+                  <div class="update_btn"><i class="fa-solid fa-pen-to-square"></i></div>
+                  <div class="delete_btn"><i class="fa-solid fa-trash"></i></div>
+                </div>
+              </td>
+
+            </tr>
+            <tr>
+              <td scope="row">02</td>
+              <td>Jacob</td>
+              <td>Friday</td>
+              <td>@fat</td>
+              <td>
+                <div class="delete_update">
+                  <div class="update_btn"><i class="fa-solid fa-pen-to-square"></i></div>
+                  <div class="delete_btn"><i class="fa-solid fa-trash"></i></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">03</td>
+              <td>Monday</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+              <td>
+                <div class="delete_update">
+                  <div class="update_btn"><i class="fa-solid fa-pen-to-square"></i></div>
+                  <div class="delete_btn"><i class="fa-solid fa-trash"></i></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">04</td>
+              <td>Wednesday</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+              <td>
+                <div class="delete_update">
+                  <div class="update_btn"><i class="fa-solid fa-pen-to-square"></i></div>
+                  <div class="delete_btn"><i class="fa-solid fa-trash"></i></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">05</td>
+              <td>Wednesday</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+              <td>
+                <div class="delete_update">
+                  <div class="update_btn"><i class="fa-solid fa-pen-to-square"></i></div>
+                  <div class="delete_btn"><i class="fa-solid fa-trash"></i></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">06</td>
+              <td>Monday</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+              <td>
+                <div class="delete_update">
+                  <div class="update_btn"><i class="fa-solid fa-pen-to-square"></i></div>
+                  <div class="delete_btn"><i class="fa-solid fa-trash"></i></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">07</td>
+              <td> Tuesday</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+              <td>
+                <div class="delete_update">
+                  <div class="update_btn"><i class="fa-solid fa-pen-to-square"></i></div>
+                  <div class="delete_btn"><i class="fa-solid fa-trash"></i></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">08</td>
+              <td>Wednesday</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+              <td>
+                <div class="delete_update">
+                  <div class="update_btn"><i class="fa-solid fa-pen-to-square"></i></div>
+                  <div class="delete_btn"><i class="fa-solid fa-trash"></i></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">09</td>
+              <td> Tuesday</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+              <td>
+                <div class="delete_update">
+                  <div class="update_btn"><i class="fa-solid fa-pen-to-square"></i></div>
+                  <div class="delete_btn"><i class="fa-solid fa-trash"></i></div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="mytable_botom">
+          <p>Showing 1 to 9 of 9 entries</p>
+          <ul class="mytable_botom_right">
+            <li class="mytable_botom_right_top">Previous</li>
+            <li class="mytable_botom_right_center"></li>
+            <li class="mytable_botom_right_bottom">Next</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
